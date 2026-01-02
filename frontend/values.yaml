@@ -1,0 +1,6 @@
+deployment:
+  imageRepo: bsainitin/frontend
+  imageVersion: v1
+  
+service:
+  type: LoadBalancer
