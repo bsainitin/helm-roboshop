@@ -1,0 +1,6 @@
+deployment:
+  imageRepo: bsainitin/mongodb
+  imageVersion: v1 
+
+service:
+  type: ClusterIP
