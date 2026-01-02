@@ -4,8 +4,8 @@ metadata:
   name: catalogue
   namespace: roboshop
 spec: 
+  type: {{ .Values.service.type }}
   selector:
-    type: ClusterIP
     project: roboshop
     component: catalogue
     tier: backend
