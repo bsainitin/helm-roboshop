@@ -1,0 +1,10 @@
+configmap:
+  redisURL: "redis://redis:6379"
+  mongoURL: "mongodb://mongodb/users"
+
+deployment:
+  imageRepo: bsainitin/user
+  imageVersion: v1 
+
+service:
+  type: ClusterIP
