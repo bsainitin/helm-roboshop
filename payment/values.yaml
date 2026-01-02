@@ -1,0 +1,11 @@
+configmap:
+  amqphost: "rabbitmq"
+  amqpuser: "roboshop"
+  amqppass: "roboshop123"
+
+deployment:
+  imageRepo: bsainitin/payment
+  imageVersion: v1 
+
+service:
+  type: ClusterIP
